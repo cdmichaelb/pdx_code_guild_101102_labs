@@ -2,7 +2,7 @@
 programming 101
 ->Lab 02
 09/28/21
-Michael Broetje
+Michael B
 """
 
 # Not entirely sure if this is done correctly, but it functions.

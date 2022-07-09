@@ -2,7 +2,7 @@
 programming 101
 ->Lab 05
 10/01/21
-Michael Broetje
+Michael B
 """
 # Imports
 import random

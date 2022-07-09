@@ -2,7 +2,7 @@
 programming 102
 ->Lab 03
 10/06/21
-Michael Broetje
+Michael B
 '''
 
 conversion_unit = ""
