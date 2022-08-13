@@ -55,15 +55,6 @@ def get_user_input() -> str:
     rot_num = input("Enter a number of rotations: ")
     return string, int(rot_num)
 
-# Salt and hash the ciphered string  -- Doesn't actually do anything.
-"""def salt_hash(ciphered_string):
-    import hashlib # Imports the hashlib module to hash the ciphered string.
-    import random # Imports the random module to generate a random salt.
-    salt = str(random.randint(0, 9999)) # Generates a random number between 0 and 9999 and converts it to a string.
-    salted_string = ciphered_string + salt # Adds the salt to the ciphered string to create a salted string.
-    salted_string_hash = hashlib.sha256(salted_string.encode()).hexdigest() # Hashes the salted string and converts it to a hexadecimal string.
-    return salted_string_hash # Returns the salted string hash to be stored in the database."""
-
 
 
 if __name__ == "__main__":
@@ -75,4 +66,3 @@ if __name__ == "__main__":
         f"You're ciphered phrases is: {ciphered} after rotating {user_input[1]} times."
         
     )
-    # print(salt_hash(ciphered))
